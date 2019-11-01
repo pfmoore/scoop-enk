@@ -5,10 +5,12 @@
     "version": "1.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/benhoyt/goawk/releases/download/v1.6.0/goawk_v1.6.0_windows_amd64.zip"
+            "url": "https://github.com/benhoyt/goawk/releases/download/v1.6.0/goawk_v1.6.0_windows_amd64.zip",
+            "hash": "f6309fb7fe8ddaa84ae5d2ffa59cdf179854253ae6a6efb2944539e5e91c2f89"
         },
         "32bit": {
-            "url": "https://github.com/benhoyt/goawk/releases/download/v1.6.0/goawk_v1.6.0_windows_386.zip"
+            "url": "https://github.com/benhoyt/goawk/releases/download/v1.6.0/goawk_v1.6.0_windows_386.zip",
+            "hash": "2e7280264abba23ee120dd8c449c159bf1c76c1c9f2ef5add14a3dd9d9c1b77a"
         }
     },
     "bin": "goawk.exe",
