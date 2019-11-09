@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/pfmoore/less",
+    "description": "A terminal pager program used to view (but not change) the contents of a text file one screen at a time, similar to the 'more' command.",
+    "license": "GPL-3.0-only|BSD-3-Clause (https://spdx.org/licenses/GPL-3.0-only.html, https://spdx.org/licenses/BSD-3-Clause.html)",
+    "version": "551",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/pfmoore/less/releases/download/v551/less-551.zip",
+            "hash": "a4e5aa2da2278e820c4f666cd44a9389583e0d6ef7983a427964551a0d622124"
+        }
+    },
+    "bin": ["less.exe", "lesskey.exe"],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/pfmoore/less/releases/download/$version/less-$version.zip"
+            }
+        }
+    }
+}
