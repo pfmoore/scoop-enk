@@ -4,7 +4,7 @@
     "license": "GPL",
     "version": "3.3",
     "url": "https://github.com/pfmoore/builder-grep/releases/download/3.3/grep-3.3.zip",
-    "hash": "3a76b3a63760e89a6074ccf9966fb8538684814a325f636713218ca004580e72",
+    "hash": "87078d845c24a8904773213cea28229cbdf79fb0947018b08644f450c3e06ecb",
     "bin": ["grep.exe"],
     "checkver": "github",
     "autoupdate": {
