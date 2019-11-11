@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/pfmoore/grep",
+    "description": "GNU grep searches one or more input files for lines containing a match to a specified pattern",
+    "license": "GPL",
+    "version": "3.3",
+    "url": "https://github.com/pfmoore/grep/releases/download/3.3/grep-3.3.zip",
+    "hash": "cf0754b73451952e610e7d4a1fb5d95163590b9b6ad1ca7bf021ee6db0b4937a",
+    "bin": ["grep.exe"],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pfmoore/less/releases/download/$version/less-$version.zip"
+    }
+}
