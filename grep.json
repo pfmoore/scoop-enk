@@ -4,10 +4,10 @@
     "license": "GPL",
     "version": "3.3",
     "url": "https://github.com/pfmoore/builder-grep/releases/download/3.3/grep-3.3.zip",
-    "hash": "cf0754b73451952e610e7d4a1fb5d95163590b9b6ad1ca7bf021ee6db0b4937a",
+    "hash": "3a76b3a63760e89a6074ccf9966fb8538684814a325f636713218ca004580e72",
     "bin": ["grep.exe"],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pfmoore/builder-grep/releases/download/$version/less-$version.zip"
+        "url": "https://github.com/pfmoore/builder-grep/releases/download/$version/grep-$version.zip"
     }
 }

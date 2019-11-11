@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/pfmoore/builder-diffutils",
+    "description": "GNU diffutils is a package of several programs related to finding differences between files.",
+    "license": "GPL",
+    "version": "3.7",
+    "url": "https://github.com/pfmoore/builder-diffutils/releases/download/3.7/diffutils-3.7.zip",
+    "hash": "0d506b31ad1a38f837915f8dbb809dc23ef03f48c10602d418e1b3ec6a1e95fc",
+    "bin": ["diff.exe", "diff3.exe", "sdiff.exe", "cmp.exe"],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pfmoore/builder-diffutils/releases/download/$version/diffutils-$version.zip"
+    }
+}
