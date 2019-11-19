@@ -5,7 +5,7 @@
     "version": "2.7.17",
     "url": "https://github.com/pfmoore/scoop-enk/releases/download/1.0/Python-2.7.17.zip",
     "hash": "7a3bdf3f62afc3c4eef8db32ca858e7619d5fc828255d04b41fc871125b58291",
-    "bin": [["Python-2.7.17/python.exe", "python2717"]],
+    "bin": [["Python-2.7.17/python.exe", "python-2.7.17"]],
     "checkver": {
         "github": "https://github.com/pfmoore/scoop-enk"
     },
