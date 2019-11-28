@@ -12,6 +12,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
+        "hash": "$url.sha256",
         "url": "https://github.com/pfmoore/builder-vim/releases/download/$version/vim-$version.zip"
     }
 }
