@@ -6,7 +6,10 @@
     "url": "https://github.com/pfmoore/builder-sed/releases/download/4.7/sed-4.7.zip",
     "hash": "bc403ea45f2f055530386b60cee738d602b1869490c7deed868c5f8cef3061f8",
     "bin": ["sed.exe"],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/pfmoore/builder-sed/releases/latest",
+        "re": "/releases/tag/(?:v|V)?([-\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/pfmoore/builder-sed/releases/download/$version/sed-$version.zip"
     }

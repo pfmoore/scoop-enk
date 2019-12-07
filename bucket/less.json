@@ -6,7 +6,10 @@
     "url": "https://github.com/pfmoore/less/releases/download/v551/less-551.zip",
     "hash": "a4e5aa2da2278e820c4f666cd44a9389583e0d6ef7983a427964551a0d622124",
     "bin": ["less.exe", "lesskey.exe"],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/pfmoore/less/releases/latest",
+        "re": "/releases/tag/(?:v|V)?([-\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/pfmoore/less/releases/download/$version/less-$version.zip"
     }
