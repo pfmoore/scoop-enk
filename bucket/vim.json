@@ -6,9 +6,9 @@
     "url": "https://github.com/pfmoore/builder-vim/releases/download/8.1.2389/vim-8.1.2389.zip",
     "hash": "bb6bd234aef968071d8aafe2e5edf6d8015c4a8deacb4ae4f6fc26be3076702d",
     "bin": [
-        "Vim/gvim.exe",
-        "Vim/vim.exe",
-        "Vim/xxd.exe"
+        "gvim.exe",
+        "vim.exe",
+        "xxd.exe"
     ],
     "checkver": "github",
     "autoupdate": {
