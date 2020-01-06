@@ -4,5 +4,5 @@
     "bin": "spigot.exe",
     "hash": "8fe658f11509cb1bb1fd3b24e3a9be14507023e03ada7a84628626a74223247b",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/spigot/",
-    "checkver": "spigot-([\\d]+\\.[\\d]+)\\.tar\\.gz"
+    "checkver": "spigot-([\\d]+\\.[^.]+)\\.tar\\.gz"
 }
