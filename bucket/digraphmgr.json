@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/pfmoore/digraph_hotkeys",
+    "description": "An Autohotkey script to support vim-style digraphs in other applications",
+    "license": "MIT",
+    "version": "1.0",
+    "url": "https://github.com/pfmoore/digraph_hotkeys/releases/download/1.0/DigraphMgr-1.0.zip",
+    "hash": "c1548b9145cda80bb18ec91a045dae89633c82d937cfdf023e8a103f89a08171",
+    "bin": "DigraphMgr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pfmoore/digraph_hotkeys/releases/download/$version/DigraphMgr-$version.zip"
+    }
+}
