@@ -2,9 +2,9 @@
     "homepage": "https://github.com/chmln/sd",
     "description": "sd is an intuitive find & replace CLI",
     "license": "MIT/Apache-2.0",
-    "version": "0.7.3",
-    "url": "https://github.com/chmln/sd/releases/download/v0.7.3/sd-0.7.3.x86_64-pc-windows-msvc.zip",
-    "hash": "66dd595ec89ed5954332e892390ed495f7cb1ee7c500414ca3382429ea04e075",
+    "version": "0.7.4",
+    "url": "https://github.com/chmln/sd/releases/download/v0.7.4/sd-0.7.4.x86_64-pc-windows-msvc.zip",
+    "hash": "c79267191ae4c785fb5f51fc2901c461dca276c4e21b383739a945d78ef50403",
     "bin": "x86_64-pc-windows-msvc/sd.exe",
     "checkver": "github",
     "autoupdate": {
