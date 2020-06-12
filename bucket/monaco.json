@@ -4,7 +4,7 @@
     "license": "All rights reserved",
     "version": "1.25",
     "url": "https://github.com/pfmoore/builder-monaco/releases/download/1.25/monaco-1.25.zip",
-    "hash": "85adc82f83e9dd565fcfd8f50de1db303494107d81bee0d5fa22265202799a8d",
+    "hash": "e576f40de55db6e0a0a59be8f0b2cf2328cc4cf00e681939a82c5caff733eb28",
     "bin": "monaco.exe",
     "checkver": "github",
     "autoupdate": {
