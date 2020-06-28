@@ -20,4 +20,9 @@ jobs:
         git config user.name "GitHub Actions Bot"
         git config user.email "bot@example.com"
         bin/update.ps1
-        git push origin master
+    # Use this action as `git push` doesn't exit cleanly on Windows.
+    # See https://github.community/t/push-to-repository-succeeds-but-getting-error-process-completed-with-exit-code-1/18123
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
