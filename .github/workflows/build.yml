@@ -1,0 +1,24 @@
+name: Update
+on:
+  repository_dispatch:
+    types: [update]
+
+jobs:
+  update-buckets:
+    name: Check for Updates
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install scoop
+      shell: powershell
+      run: |
+        Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+        Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+        scoop update
+    - name: Update bucket
+      shell: powershell
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "bot@example.com"
+        bin/update.ps1
+        git push origin master
