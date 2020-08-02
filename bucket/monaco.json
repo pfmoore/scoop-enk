@@ -4,7 +4,7 @@
     "license": "All rights reserved",
     "version": "1.30",
     "url": "https://github.com/pfmoore/builder-monaco/releases/download/1.30/monaco-windows-1.30.zip",
-    "hash": "32b3464450c96f71b213a9391f609ad7c951a5e4ccfab8a15bebefa8aca30340",
+    "hash": "6ba62b242de403f24505aa604217b3f3f6cc542f3835618d3bb790c094fa6b16",
     "bin": "monaco.exe",
     "checkver": "github",
     "autoupdate": {
