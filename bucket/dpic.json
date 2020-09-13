@@ -1,0 +1,13 @@
+{
+    "homepage": "https://ece.uwaterloo.ca/~aplevich/dpic/",
+    "description": "Dpic is an implementation of the pic little language for creating line drawings and illustrations for documents, web pages, and other uses.",
+    "license": "BSD",
+    "version": "2020.09.01",
+    "hash": "d4c16b3f39ccef73db5b9fdf74f234c6ab1c98920e7d0d02c888f365ee7396ca",
+    "url": "https://ece.uwaterloo.ca/~aplevich/dpic/Windows/dpic.exe",
+    "bin": "dpic.exe",
+    "checkver": "downloads for ([\\d.]+):",
+    "autoupdate": {
+        "url": "https://ece.uwaterloo.ca/~aplevich/dpic/Windows/dpic.exe"
+    }
+}
