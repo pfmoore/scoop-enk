@@ -2,9 +2,9 @@
     "homepage": "https://github.com/pfmoore/builder-monaco",
     "description": "Monaco allows you to produce answers to some problems that involve random effects, such as are produced by dice or cards.",
     "license": "All rights reserved",
-    "version": "1.40",
-    "url": "https://github.com/pfmoore/builder-monaco/releases/download/1.40/monaco-windows-1.40.zip",
-    "hash": "4bb6bfa432b5eae485a1e2baab968e9a69b14113c77f82fd132fd173c84a9d17",
+    "version": "1.41",
+    "url": "https://github.com/pfmoore/builder-monaco/releases/download/1.41/monaco-windows-1.41.zip",
+    "hash": "4d182487d62896b81a43366a3e2891f6c808f73673ec791ca3235e6fb42e7cea",
     "bin": "monaco.exe",
     "checkver": "github",
     "autoupdate": {
