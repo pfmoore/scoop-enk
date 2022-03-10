@@ -15,7 +15,7 @@ jobs:
       run: |
         Set-ExecutionPolicy RemoteSigned -scope CurrentUser
         Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-        scoop update
+        scoop update -RunAsAdmin
     - name: Update bucket
       shell: pwsh
       run: |
