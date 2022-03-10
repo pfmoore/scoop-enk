@@ -8,6 +8,6 @@
     "bin": "x86_64-pc-windows-msvc/sd.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/chmln/sd/releases/download/v$version/sd-$version.x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/chmln/sd/releases/download/v$version/sd-v$version-x86_64-pc-windows-msvc.zip"
     }
 }
