@@ -2,9 +2,9 @@
     "homepage": "https://github.com/pfmoore/builder-vim",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "license": "Vim",
-    "version": "8.2.2878",
-    "url": "https://github.com/pfmoore/builder-vim/releases/download/8.2.2878/vim-8.2.2878.zip",
-    "hash": "3fd21cc078a6c48031549fec08f32b8a44233510b1861a9662e60e5a93fb2b0a",
+    "version": "8.2.4516",
+    "url": "https://github.com/pfmoore/builder-vim/releases/download/8.2.4516/vim-8.2.4516.zip",
+    "hash": "151ebce191f0fe89d2cbceed8d1d512e07dea405c7841f9f3ba5b3de896a9573",
     "bin": [
         "gvim.exe",
         "vim.exe",
