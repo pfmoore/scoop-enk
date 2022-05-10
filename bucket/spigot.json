@@ -1,8 +1,8 @@
 {
-    "version": "20210527.7dd3cfd",
+    "version": "20220509.4b9cde0",
     "url": "https://www.chiark.greenend.org.uk/~sgtatham/spigot/spigot.exe",
     "bin": "spigot.exe",
-    "hash": "d4794f70dcd3519b44f6f465b00e4c8f9d36433bb618023f4c0cd022f0ef83f5",
+    "hash": "0c438e5106f21842b42e56d509d46c4ed0971a6729c5e39aefafce6cbcd2c1e7",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/spigot/",
     "checkver": "spigot-([\\d]+\\.[^.]+)\\.tar\\.gz",
     "autoupdate": {
