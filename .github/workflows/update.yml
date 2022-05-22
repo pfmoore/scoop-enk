@@ -16,6 +16,10 @@ jobs:
         Set-ExecutionPolicy RemoteSigned -scope CurrentUser
         Invoke-WebRequest https://get.scoop.sh -OutFile get-scoop.ps1
         ./get-scoop.ps1 -RunAsAdmin
+        # Workaround for https://github.com/ScoopInstaller/Scoop/issues/4917
+        scoop bucket rm main
+        scoop bucket add main
+        # End workaround
         scoop update
     - name: Update bucket
       shell: pwsh
