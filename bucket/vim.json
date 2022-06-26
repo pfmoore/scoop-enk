@@ -2,18 +2,14 @@
     "homepage": "https://github.com/pfmoore/builder-vim",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "license": "Vim",
-    "version": "8.2.5126",
-    "url": "https://github.com/pfmoore/builder-vim/releases/download/8.2.5126/vim-8.2.5126.zip",
-    "hash": "657f4258f0f6b75ecfa40d8258a9370f35f6c17eb135a8a8ba76f4f0172d8814",
+    "version": "8.2.5160",
+    "url": "https://github.com/pfmoore/builder-vim/releases/download/8.2.5160/vim-8.2.5160.zip",
+    "hash": "7a18049827897e0e43547d15a8fcea5bd9b03dd6cfc30787b317615b58d78899",
     "installer": {
-        "script": [
-            "Set-Content (join-path $scoopdir shims gvim.ps1) -Value \"& $(join-path $dir gvim.exe) `$args\""
-        ]
+        "script": "Set-Content (join-path $scoopdir shims gvim.ps1) -Value \"& $(join-path $dir gvim.exe) `$args\""
     },
     "uninstaller": {
-        "script": [
-            "Remove-Item (join-path $scoopdir shims gvim.ps1)"
-        ]
+        "script": "Remove-Item (join-path $scoopdir shims gvim.ps1)"
     },
     "bin": [
         "vim.exe",
