@@ -2,9 +2,9 @@
     "homepage": "https://github.com/pfmoore/builder-vim",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "license": "Vim",
-    "version": "9.0.0439",
-    "url": "https://github.com/pfmoore/builder-vim/releases/download/9.0.0439/vim-9.0.0439.zip",
-    "hash": "b2cede0ac74809ec2e521e882c565b8f2be8d593a2e23dc0559f69f486af74b6",
+    "version": "9.0.0494",
+    "url": "https://github.com/pfmoore/builder-vim/releases/download/9.0.0494/vim-9.0.0494.zip",
+    "hash": "f04e0065af4baf1ae4eeec9c216f9cf938bacffa473a712028b87d0278b53e4b",
     "installer": {
         "script": "Set-Content (join-path $scoopdir shims gvim.ps1) -Value \"& $(join-path $dir gvim.exe) `$args\""
     },
