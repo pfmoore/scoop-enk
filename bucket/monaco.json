@@ -4,7 +4,7 @@
     "license": "All rights reserved",
     "version": "2.10",
     "url": "https://github.com/pfmoore/builder-monaco/releases/download/2.10/monaco-windows-2.10.zip",
-    "hash": "ff34bdfb657bd7bc1dd6f0c0f77b6787c41425ad47669913e0c3f84f5fbd5140",
+    "hash": "a5917347d7eb7ad818418990ac5b0dc39a263e72d3955e7495063b19cc2231ca",
     "bin": "monaco.exe",
     "checkver": "github",
     "autoupdate": {
