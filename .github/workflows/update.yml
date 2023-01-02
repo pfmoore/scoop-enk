@@ -10,15 +10,17 @@ jobs:
     name: Check for Updates
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Install scoop
       run: |
         Set-ExecutionPolicy RemoteSigned -scope CurrentUser
         Invoke-WebRequest https://get.scoop.sh -OutFile get-scoop.ps1
         ./get-scoop.ps1 -RunAsAdmin
         # Workaround for https://github.com/ScoopInstaller/Scoop/issues/4917
-        scoop bucket rm main
-        scoop bucket add main
+        # Should be fixed by https://github.com/ScoopInstaller/Scoop/pull/4960
+        # Commenting out the workaround
+        ## scoop bucket rm main
+        ## scoop bucket add main
         # End workaround
         scoop update
     - name: Update bucket
