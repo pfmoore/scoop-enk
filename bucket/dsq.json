@@ -8,6 +8,6 @@
     "bin": "dsq.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/multiprocessio/dsq/releases/download/$version/dsq-win32-x64-$version.zip"
+        "url": "https://github.com/multiprocessio/dsq/releases/download/v$version/dsq-win32-x64-$version.zip"
     }
 }
