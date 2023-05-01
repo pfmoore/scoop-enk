@@ -9,7 +9,7 @@
         [
             "py.exe",
             "pip",
-            "$dir\\pip.pyz"
+            "$dir\\pip-23.1.2.pyz"
         ]
     ],
     "checkver": {
@@ -17,6 +17,13 @@
         "jsonpath": "$.info.version"
     },
     "autoupdate": {
-        "url": "https://bootstrap.pypa.io/pip/pip.pyz#/pip-$version.pyz"
+        "url": "https://bootstrap.pypa.io/pip/pip.pyz#/pip-$version.pyz",
+        "bin": [
+            [
+                "py.exe",
+                "pip",
+                "$dir\\pip-$version.pyz"
+            ]
+        ]
     }
 }
