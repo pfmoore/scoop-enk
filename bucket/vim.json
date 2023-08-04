@@ -4,7 +4,7 @@
     "license": "Vim",
     "version": "9.0.1677",
     "url": "https://github.com/pfmoore/builder-vim/releases/download/9.0.1677/vim-9.0.1677.zip",
-    "hash": "ddeb1367e99e1400a7d5db19fcb85312d5dd508ac9b2f854f356f71c156a8885",
+    "hash": "b83a44faf8a35e1e865126c92ddab43c48cd73c195210e9aa2a0fd345f1921c7",
     "installer": {
         "script": "Set-Content (join-path $scoopdir shims gvim.ps1) -Value \"& $(join-path $dir gvim.exe) `$args\""
     },
