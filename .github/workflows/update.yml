@@ -4,6 +4,7 @@ on:
     - cron: "0 1 * * *"
   repository_dispatch:
     types: [update]
+  workflow_dispatch:
 
 jobs:
   update-buckets:
