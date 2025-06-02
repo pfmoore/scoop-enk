@@ -5,13 +5,16 @@
     "version": "1.7.1",
     "url": "https://github.com/pypa/pipx/releases/download/1.7.1/pipx.pyz",
     "hash": "1d4f46f86830640f1d7c4e29b280a7a42265d6e8af2c063f40baed4513f03ae8",
-    "bin": [
-        [
-            "py.exe",
-            "pipx",
-            "$dir\\pipx.pyz"
+    "installer": {
+        "script": [
+            "New-Item -Type SymbolicLink -Path $scoopdir\\shims\\pipx.pyz -Target $dir\\pipx.pyz"
         ]
-    ],
+    },
+    "uninstaller": {
+        "script": [
+            "Remove-Item -ErrorAction 0 -Path $scoopdir\\shims\\pipx.pyz"
+        ]
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/pypa/pipx/releases/download/$version/pipx.pyz"
