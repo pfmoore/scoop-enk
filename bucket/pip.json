@@ -2,9 +2,9 @@
     "homepage": "https://github.com/pypa/pip",
     "description": "The PyPA recommended tool for installing Python packages",
     "license": "MIT",
-    "version": "25.3",
-    "url": "https://bootstrap.pypa.io/pip/zipapp/pip-25.3.pyz",
-    "hash": "e6f15b8635aae29aa2aa3d5c0e5b19d8998f8012664ce091d79ef2ef0d6b25e9",
+    "version": "26.1.1",
+    "url": "https://bootstrap.pypa.io/pip/zipapp/pip-26.1.1.pyz",
+    "hash": "0eba9086d0abcd91b572242dff2c3e6171f0c21ee344669687f1adb5a8cb9786",
     "installer": {
         "script": "New-Item -Type SymbolicLink -Path $scoopdir\\shims\\pip.pyz -Target $dir\\pip-$version.pyz"
     },

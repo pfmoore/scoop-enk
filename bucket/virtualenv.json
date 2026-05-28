@@ -2,9 +2,9 @@
     "homepage": "https://github.com/pypa/virtualenv",
     "description": "Virtual Python Environment builder",
     "license": "MIT",
-    "version": "20.35.4",
+    "version": "21.4.1",
     "url": "https://bootstrap.pypa.io/virtualenv/virtualenv.pyz",
-    "hash": "8c34d62f8dff28c87a9640257831d1c7ba81dd60c1cf0acbe57b3d4baa627b87",
+    "hash": "ad0441b3f86d7e76e2196ac2f136ade3736058051627a6e74a488b2430dc2954",
     "installer": {
         "script": "New-Item -Type SymbolicLink -Path $scoopdir\\shims\\virtualenv.pyz -Target $dir\\virtualenv.pyz"
     },
